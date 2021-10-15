@@ -1,0 +1,7 @@
+sqlite3
+.open AuctionBase.db
+.separator |
+.import item_table.dat Items
+.import bids_table.dat Bids
+.import user_table.dat Users
+.import category_table.dat Categories
